@@ -13,4 +13,11 @@ git submodule add https://github.com/funatsufumiya/godot_osc_bin.git osc
 # or simply: git clone https://github.com/funatsufumiya/godot_osc_bin.git osc
 ```
 
-(but I recommend to use `godotenv addons install`. see [GodotEnv's readme](https://github.com/chickensoft-games/GodotEnv?tab=readme-ov-file#initializing-godotenv-in-a-project))
+but I recommend to use `godotenv addons install`. see [GodotEnv's readme](https://github.com/chickensoft-games/GodotEnv?tab=readme-ov-file#initializing-godotenv-in-a-project). GodotEnv's `addons.jsonc` config is below (partial):
+
+```json
+    "osc": {
+      "url": "https://github.com/funatsufumiya/godot_osc_bin",
+      "checkout": "v0.1.0",
+    },
+```
